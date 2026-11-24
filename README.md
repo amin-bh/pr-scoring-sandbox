@@ -1,14 +1,14 @@
 # tempconv
 
-A tiny comand-line tool for converting temperatues between Celsius, Fahrenheit and Kelvin.
+A tiny command-line tool for converting temperatures between Celsius, Fahrenheit and Kelvin.
 
 > This is a throwaway sandbox repository. It exists to hold sample pull requests
 > used to test how pull requests are scored. The typos and bugs on `main` are
 > deliberate.
 
-## Instalation
+## Installation
 
-You only need Python 3.10 or newer. There are no dependancies.
+You only need Python 3.10 or newer. There are no dependencies.
 
 ```sh
 git clone https://github.com/amin-bh/pr-scoring-sandbox.git
@@ -23,7 +23,7 @@ python -m tempconv 0 c k      # 273.15
 ```
 
 The first argument is the value, the second the unit you convert from and the
-third the unit you want to recieve. Units are `c`, `f` and `k`, seperate them
+third the unit you want to receive. Units are `c`, `f` and `k`, separate them
 with a space.
 
 ## Running the tests
