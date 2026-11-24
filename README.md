@@ -26,6 +26,9 @@ The first argument is the value, the second the unit you convert from and the
 third the unit you want to recieve. Units are `c`, `f` and `k`, seperate them
 with a space.
 
+Values below absolute zero (-273.15 C or -459.67 F) are rejected with an
+error and exit code 2.
+
 ## Running the tests
 
 ```sh
