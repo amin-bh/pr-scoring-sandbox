@@ -22,5 +22,9 @@ def main(argv=None):
     func = CONVERSIONS.get((args.source, args.target))
     if func is None:
         parser.error(f"cannot convert {args.source} to {args.target}")
-    print(f"{func(args.value):.2f}")
+    try:
+        result = func(args.value)
+    except ValueError as err:
+        parser.error(str(err))
+    print(f"{result:.2f}")
     return 0
