@@ -8,7 +8,7 @@ def c_to_f(celsius):
 
 def f_to_c(fahrenheit):
     """Convert degrees Fahrenheit to degrees Celsius."""
-    return (fahrenheit - 32) * 9 / 5
+    return (fahrenheit - 32) * 5 / 9
 
 
 def c_to_k(celsius):
